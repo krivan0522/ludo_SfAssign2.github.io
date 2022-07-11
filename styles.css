@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://thumbs.dreamstime.com/b/ludo-dice-black-background-ludo-dice-188661892.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.empty,.tokenb,.tokenb2,.tokena2,.tokena,.start{
+    display: inline;
+}
+#A1,#A2,
+#B1,#B2
+{
+    
+    display: none;
+}
+.heading {
+    text-align: center;
+    align-content: center;
+    font-size: x-large;
+    position: relative;
+    top: 0;
+    left: 0;
+    
+}
+
+.heading h1{
+    background: linear-gradient(to right,rgb(0, 30, 255), #ff832b);
+    padding: 10px;
+    color: azure;
+}
+
+.container{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ludo-table{
+    margin: 80px;
+    
+}
+
+.ghar {
+    width: 5vw;
+    height: 5vw;
+    border: 1px solid rgb(153, 0, 0);
+    text-align: center;
+    background: aliceblue;
+    
+}
+
+.info, .dice {
+    border: 1px solid black;
+    text-align: center;
+    background: rgb(238, 153, 230);
+    text-transform: uppercase;
+    color: white;
+    font-size: large;
+}
+
+.ludo-table {
+    
+    align-items: center;
+    
+}
+
+.playerA {
+    /* float: left; */
+    margin-top: 30px ;
+    width: 15vw;
+    height: 15vw;
+    position: relative;
+    border: 1px solid black;
+    /* top: 200px;
+    left: 10vw; */
+    min-width: 100px;
+    background-color: rgb(231, 184, 184);
+    padding: auto;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    font-size: x-large;
+}
+
+.playerB {
+    /* float: right; */
+    background-color: rgb(154, 154, 255);
+    padding: auto;
+    min-width: 100px;
+    width: 15vw;
+    height: 15vw;
+    border: 1px solid black;
+    font-size: x-large;
+    /* bottom: 50px;
+    right: 100px; */
+    text-align: center;
+    margin: auto;
+}
+
+#a1 {
+    background-color: rgb(241, 82, 82);
+    color: aliceblue;
+}
+
+.instruction{
+    background: linear-gradient(to right,rgb(255 246 166 / 35%),rgb(250 174 3));
+    cursor: pointer;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.instruction:hover{
+    font-size: larger;
+}
+
+#a28 {
+    background-color: rgb(241, 82, 82);
+    opacity: 0.7;
+    color: rgb(0, 0, 0);
+}
+
+#a14 {
+    background-color: rgb(57, 57, 255);
+    opacity: 0.7;
+    color: rgb(0, 0, 0);
+    
+}
+
+#a15 {
+    background-color: rgb(57, 57, 255);
+    color: aliceblue;
+}
